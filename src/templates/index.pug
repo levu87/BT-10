@@ -1,0 +1,53 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home
+		.container
+			.row
+				.col
+					.header
+						h1 Your Logo
+							span Using a single layout to create several diffrent looks
+						.menu
+							ul
+								li
+									a(href="") Home
+								li
+									a(href="") About
+								li
+									a(href="") Services
+								li
+									a(href="") Contact Us
+					.container
+						.row.box
+							.col-md-3
+								img.img-fluid(src="./img/logo.png", alt="")
+							.col-md-9
+								h1 About
+								p And then some plain text would go in here saying some-thing about the section we're in. Probaby some glowing statement about the company or whatever					
+						.row.box2
+							.col-md-3.side
+								ul
+									li
+										a(href="") About Us
+										hr
+									li
+										a(href="") How we work
+										hr
+									li
+										a(href="") Testimonials
+										hr
+									li
+										a(href="") Contact Support
+										hr
+							.col-md-9.textbox
+								h2 How We Work
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, earum. Eveniet dolorem magnam sint similique aliquid, repellat nobis cum excepturi doloremque ullam sed culpa placeat eius, optio, in rem itaque.
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aut corrupti at cum impedit nobis voluptate quis ducimus tempore odio reiciendis ipsam! Sint, consequuntur id. Voluptatibus vero quod eos. Distinctio.
+								p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima cum aperiam, doloribus, accusantium accusamus culpa, eius libero omnis placeat at suscipit dicta? Labore explicabo reprehenderit delectus reiciendis totam, asperiores eius?
+
